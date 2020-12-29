@@ -195,10 +195,13 @@ h1, h2 {
   display: block;
   width: auto;
   height: auto;
-  min-width: 100%;
+  min-width: 105%;
   max-width: none;
   min-height: 100vh;
   margin-bottom: -40%;
+  position: relative;
+  left: -2%;
+  top: 15%;
 }
 @media (max-width: 600px) {
   .planet-nav svg {
