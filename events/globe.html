@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Events</title>
     <link rel="stylesheet" href="globe.css">
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body>            
+<div id="menu">                 
+    <ul>                     
+        <li><a href="#" class="active">Events</a></li>                     
+        <li><a href="#">Activities</a></li>                     
+        <li><a href="#">Sponsers</a></li>                     
+        <li><a href="#">About Us</a></li>                     
+        <li><a href="#">Timeline</a></li>
+        <li><a href="#">Developers</a></li>                 
+    </ul>
+</div>             
+   
     <!--Globe Beg -->
     <img id="bg-image" src="img.jpeg" alt="bg-images">
     <div class="earth">
@@ -45,19 +56,18 @@
                 d="M10,200 C30,-28 370,-28 390,200"
                 fill="none" />
     <!--       </defs> -->
-
-        <text>
-            <textPath href="#navPath" startOffset="0" font-size="10">
-            <tspan class="item" data-planet="Events"><a href="https:/">Events</a></tspan>
-            <tspan class="item" data-planet="Activities"><a href="https:/">Activities</a></tspan>
-            <tspan class="item" data-planet="Sponsors"><a href="https:/">Sponsors</a></tspan>
-            <tspan class="item" data-planet="About_us"><a href="https:/">About us</a></tspan>
-            <tspan class="item" data-planet="Timeline"><a href="https:/">Timeline</a></tspan>
-            <tspan class="item" data-planet="Developers"><a href="https:/">Developers</a></tspan>
-            <tspan class="item" data-planet="SignIn"><a href="https:/">SignIn</a></tspan>
-            </textPath>
-        </text>
-
+    <text>
+        <textPath href="#navPath" startOffset="0" font-size="10">
+        <tspan class="item" data-planet="Events"><a href="https:/">Events</a></tspan>
+        <tspan class="item" data-planet="Activities"><a href="https:/">Activities</a></tspan>
+        <tspan class="item" data-planet="Sponsors"><a href="https:/">Sponsors</a></tspan>
+        <tspan class="item" data-planet="About_us"><a href="https:/">About us</a></tspan>
+        <tspan class="item" data-planet="Timeline"><a href="https:/">Timeline</a></tspan>
+        <tspan class="item" data-planet="Developers"><a href="https:/">Developers</a></tspan>
+        <tspan class="item" data-planet="SignIn"><a href="https:/">SignIn</a></tspan>
+        </textPath>
+    </text>
+        
         </svg>
     </nav>
 
